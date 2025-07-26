@@ -20,12 +20,22 @@
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <header class="header hide">
+    <header class="header">
       <div class="container header-navigation">
         <nav class="navigation-list">
           <a class="logo-left" href="./index.html"
             >Web<span class="logo-right">Studio</span></a
           >
+
+          <button
+            class="mobile-menu-btn"
+            type="button"
+            aria-label="Mobile menu button"
+          >
+            <svg class="mobile-menu-icon" width="24" height="24">
+              <use href="./images/icons.svg#icon-menu"></use>
+            </svg>
+          </button>
 
           <ul class="menu-list">
             <li class="navigation-item">
@@ -510,6 +520,9 @@
         </div>
       </div>
     </footer>
+    <!-- #endregion -->
+
+    <!-- #region Modal Window -->
 
     <div class="backdrop">
       <div class="modal">
@@ -589,18 +602,20 @@
             <label class="modal-form-agreement" for="user-privacy"
               ><span class="modal-form-checkbox">
                 <svg class="modal-form-checkbox-icon" width="10" height="8">
-                  <use
-                    href="./images/icons.svg#icon-checkbox"
-                  ></use></svg></span
-              >I accept the terms and conditions of the
-              <a
-                class="modal-form-agreement-link"
-                href=""
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Privacy Policy</a
-              ></label
+                  <use href="./images/icons.svg#icon-checkbox"></use>
+                </svg>
+              </span>
+              <div class="modal-form-agreement-messege">
+                I accept the terms and conditions of the
+                <a
+                  class="modal-form-agreement-link"
+                  href=""
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Privacy Policy</a
+                >
+              </div></label
             >
 
             <!-- <label class="modal-form-agreement" for="user-privacy">
