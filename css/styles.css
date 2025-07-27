@@ -1315,15 +1315,13 @@ img {
 .mobile-menu-link.active {
   color: #404bbf;
 }
-.mobile-menu-contacts {
-}
+
 .contacts {
   display: flex;
   flex-direction: column;
   gap: 24px;
 }
-.contacts-item {
-}
+
 .contacts-link {
   font-weight: 500;
   font-size: 20px;
